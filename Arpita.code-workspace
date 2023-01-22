@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../Arpita"
+		},
+		{
+			"path": "../ap.html"
+		},
+		{
+			"path": "../urmi"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "urmi"
+	}
+}

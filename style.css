@@ -1,0 +1,251 @@
+*p,h1{
+    box-sizing: border-box;
+    padding: 0px;
+    margin:0px ;
+}
+body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+.mainheader{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(94, 9, 58);
+    box-shadow: 0px 0px 8px 0px rgb(126, 39, 126);
+    align-items: center;
+}
+.mainlogo img{
+    max-width: 70px;
+    padding-top:8px;
+    padding-bottom: 5px;
+}
+.mainMenus,.li,.a{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    
+}
+.mainMenus li a{
+    color:white ;
+    text-decoration: none;
+    margin: 30px;
+    transition: 0.5s linear;
+
+
+}
+.mainMenus li a:hover{
+    color: rgb(161, 163, 25);
+   }
+
+.homesection{
+    height: 80vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.705),rgba(0, 0, 0, 0.26)),url(https://miro.medium.com/max/1400/1*S8UogculWFLr3lVdLn05MA.jpeg);
+    background-position: center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+
+
+}
+.homecontentdiv{
+
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    text-align: center;
+}
+.homecontentdiv h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+.homecontentdiv p{
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+
+}
+.mybtn{
+border: 2px solid yellow;
+padding: 10px 40px;
+border-radius: 23px;
+
+}
+.mybtn:hover{
+    background-color:rgb(226, 121, 156) ;
+}
+.searchsection{
+    font-size:larger;
+    padding-left: 100px;
+    padding-right: 30px;
+    background-color:rgb(26, 112, 146);
+    height: 100px;
+     
+}
+
+.searchform{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+
+    
+}
+.searchform div{
+    width: 25%;
+}
+/* offer section */
+.offercontainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.offerdiv{
+    width: 19%;
+    margin: 5px;
+    transition: 0,4s linear;
+
+}
+.offerimage{
+    width: 100%;
+
+
+}
+.offerimage img{
+    max-width: 100%;
+    height: 36vh;
+}
+.offerditails{
+    padding: 10px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    transition: 0.4s linear;
+
+}
+.offerdiv :hover{
+    box-shadow: 0px 0px 5px 5px blueviolet;
+    border: 3px solid purple;
+}
+.offerdiv:hover .offerditails{
+    background-color: gray;
+    color: white;
+}
+.offerdivtitle{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.offerdivtitle h1{
+    text-transform: uppercase;
+}
+.offerdivtitle p{
+    color: gray;
+}
+.offersection{padding: 70px 0px 70px 0px;
+}
+.sectioncatagories{
+    padding: 50px 100px 50px 100px;
+    background-image:url("./images/seamless-background-with-clothes-vector-3607573.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.iconborderdiv i{
+    font-size: 50px;
+}
+.iconborderdiv{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iconwraper{
+    text-align: center;
+    width : fit-content;
+    margin :10px;
+}
+.iconwraper:hover p, .iconwraper:hover .iconborderdiv i{
+    color: blueviolet;
+}
+.iconwraper:hover .iconborderdiv{
+    border:3px solid blueviolet;
+}
+
+.iconwraper p{
+    margin-top: 15px;
+}
+.typeciconcontainer{
+    display: flex;
+    justify-content: space-between;
+
+}
+/* client section */
+.clientsection{
+    padding: 50px;
+    background-color: rgb(75, 105, 145);
+}
+.clientinfo{
+    width: 40%;
+    box-shadow: 0px 0px 3px 0px rgb(165, 32, 165);
+    padding: 10px;
+    border-top: 3px solid rgb(165, 32, 165);
+    background-color: rgb(216, 222, 224);
+}
+
+
+.clientinfo h4{
+    font-size: 20px;
+    color: blueviolet;
+}
+
+.clientcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footercontainer .footerdiv{
+    width: 25%;
+    padding: 15px;
+}
+.footercontainer{
+    display: flex;
+    justify-content: space-between;
+}
+.latestcloths{
+    display: flex;
+}
+.latestcloths img{
+    max-width: 40px;
+    margin: 10px;
+    margin-left: 0;
+    
+}
+footer{
+    background-color: rgb(175, 221, 240);
+    padding: 50px 100px 50px 100px;
+}
+.footerdiv tagdiv{
+    display: flex;
+}
+.footerdiv .tag{
+    border: 2px solid rgb(113, 125, 189);
+    padding: 5px;
+    margin: 5px;
+    width: fit-content;
+    height: fit-content;
+}
+.tagdiv{
+    display: flex;
+    flex-wrap: wrap;
+}
